@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    height: 100vh;
+    background-color: #1479FB;
+}
+
+a.nav-link {
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    margin: 0 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    transition: .5s all;
+}
+
+a.nav-link:hover {
+    color: #e4e4e4;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 120px;
+    transition: .3s all;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.welcome {
+    width: 350px;
+}
+
+a.CTA {
+    display: inline-block;
+    padding: 16px 20px;
+    margin-top: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    background-color: #084F99;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    transition: .3s all;    
+}
+
+a.CTA:hover {
+    box-shadow: none
+}
+
+.fade-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #c1cafa;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+    .cta-heading {
+        text-align: center;
+    }
+
+    .welcome {
+        display: none;
+        transition: .3s all;
+    }
+    .cta-heading {
+        margin: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .fade-text {
+        margin-top: 50px;
+    }
+}
+
+#about-section {
+    text-align: center;
+    height: 60vh;
+    transition: .3s all;
+    padding: 15px 0px;
+    transition: .3s all;
+}
+
+.who-we-are {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #212121;
+    font-size: 2em;
+}
+
+.who-we-are-desc {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.find-us {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.social-icons {
+    position: relative;
+}
+
+.social-icons > a {
+    text-decoration: none;
+    color: #084F99;
+    font-size: 22px;
+}
+
+#product-section {
+    height: 100vh;
+    background-color: #92396a;
+}
+
+.product-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img.p-img {
+    width: 350px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.product-description {
+    text-align: center;
+    color: white;
+}
+
+.product-description p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+#service-section {
+    height: 90vh;
+}
+
+.service-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    color: #212121;
+    padding-top: 30px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service > img {
+    width: 300px;
+}
+
+.service > h2 {
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+#contact-section {
+    height: 100vh;
+    background-color: #6D72C3;
+    padding-bottom: 20px;
+}
+
+.contact-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    color: #212121;
+    padding-top: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    padding: 16px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    transition: .3s all;
+    background-color: #084F99;
+    border-radius: 3px;
+    margin: 10px 0;
+    color: white;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 30px 0;
+}
